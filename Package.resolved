@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftkeyexchange",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/calmdocs/SwiftKeyExchange",
+      "state" : {
+        "revision" : "878ba94b472fabdf1a8515be9838a41f9776976c",
+        "version" : "0.0.7"
+      }
+    },
+    {
+      "identity" : "swiftprocessmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/calmdocs/SwiftProcessManager",
+      "state" : {
+        "revision" : "185ad18810bcb1d61ebed2f33d8a948ccbfc29df",
+        "version" : "0.0.7"
+      }
+    },
+    {
+      "identity" : "swiftwebsocketmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/calmdocs/SwiftWebSocketManager",
+      "state" : {
+        "revision" : "e525c223db2406d9feefc1bdeb91ddb8eb25d322",
+        "version" : "0.0.13"
+      }
+    }
+  ],
+  "version" : 2
+}
