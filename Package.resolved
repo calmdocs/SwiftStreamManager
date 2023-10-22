@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/calmdocs/SwiftKeyExchange",
       "state" : {
-        "revision" : "878ba94b472fabdf1a8515be9838a41f9776976c",
-        "version" : "0.0.7"
+        "branch" : "main",
+        "revision" : "e0e4d31540f47f4cb4ea5b8c3f44fba14a23a272"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/calmdocs/SwiftProcessManager",
       "state" : {
-        "revision" : "185ad18810bcb1d61ebed2f33d8a948ccbfc29df",
-        "version" : "0.0.7"
+        "branch" : "main",
+        "revision" : "b56b6e9b0cfdafa1d472521313cab3d4758384b4"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/calmdocs/SwiftWebSocketManager",
       "state" : {
-        "revision" : "e525c223db2406d9feefc1bdeb91ddb8eb25d322",
-        "version" : "0.0.13"
+        "branch" : "main",
+        "revision" : "5d27e7860fc009462c271b74d174f5847ae4614a"
       }
     }
   ],
