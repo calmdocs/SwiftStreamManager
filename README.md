@@ -1,6 +1,6 @@
 # SwiftStreamManager
 
-Run a golang binary in a native macOS SwiftUI app.
+Run a golang binary embedded in a native macOS SwiftUI app.
 
 ## Setup
 
