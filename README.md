@@ -2,6 +2,8 @@
 
 Run a golang binary embedded in a native macOS SwiftUI app.
 
+The golang binary and SwiftUI app communicate via encrypted websocket messages.
+
 ## Setup
 
 Create a new macOS Swift Xcode project:
