@@ -20,7 +20,7 @@ Run the following commands:
 
 Drag the gobinary-darwin-amd64 and gobinary-darwin-arm64 files that we just built into our new macOS Swift Xcode project.
 
-### In our new Swift Xcode project, replace ContentView.swift as follows
+### In our new Swift Xcode project, replace ContentView.swift:
 
 ```
 import SwiftUI
