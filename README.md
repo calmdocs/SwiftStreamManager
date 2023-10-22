@@ -53,7 +53,12 @@ struct ContentView: View {
         List {
             HStack {
                 Button(action: {
-                    itemsStore.sm.publish(itemsStore.sendStream!, type: "addItem", id: "", data: "")
+                    itemsStore.sm.publish(
+                        itemsStore.sendStream!,
+                        type: "addItem",
+                        id: "",
+                        data: ""
+                    )
                 }, label: {
                     Image(systemName: "plus")
                 })
