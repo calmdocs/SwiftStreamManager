@@ -6,7 +6,7 @@ The golang binary and SwiftUI app communicate via encrypted websocket messages.
 
 ## Setup
 
-Create a new macOS Swift Xcode project:
+Create a new macOS Swift xCode project:
 - File -> Add Packages ... -> https://github.com/calmdocs/SwiftStreamManager
 - Select the checkbox at Target -> Signing & Capabilities -> App Sandbox -> Network -> Incoming connections (Server).
 - Select the checkbox at Target -> Signing & Capabilities -> App Sandbox -> Network -> Incoming connections (Client).
@@ -22,7 +22,7 @@ Run the following commands:
 
 Drag the gobinary-darwin-amd64 and gobinary-darwin-arm64 files that we just built into our new macOS Swift Xcode project.
 
-### In our new Swift Xcode project, replace ContentView.swift:
+### In our new Swift xCode project, replace ContentView.swift:
 
 ```
 import SwiftUI
