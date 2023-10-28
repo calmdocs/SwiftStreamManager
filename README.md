@@ -22,9 +22,9 @@ Run the following commands:
 - cd SwiftStreamManager/pkg/gobinary
 - GOOS=darwin GOARCH=amd64 go build -o gobinary-darwin-amd64 && GOOS=darwin GOARCH=arm64 go build -o gobinary-darwin-arm64
 
-Drag the gobinary-darwin-amd64 and gobinary-darwin-arm64 files that we just built into our new macOS Swift Xcode project.
+Drag the gobinary-darwin-amd64 and gobinary-darwin-arm64 files that we just built into our new macOS Swift xCode project.
 
-### In our new Swift Xcode project, replace ContentView.swift with the following code:
+### In our new Swift xCode project, replace ContentView.swift with the following code:
 
 ```
 import SwiftUI
