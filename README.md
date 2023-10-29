@@ -4,8 +4,6 @@ Run a golang binary embedded in a native macOS SwiftUI app.
 
 The golang binary and SwiftUI app communicate via encrypted websocket messages.
 
-Works well on macOS 13 (Ventura) and later.  Earlier versions of macOS appear to have a memory leak in URLSessionWebSocketTask which requires an app restart about every 15 minutes.
-
 ## Setup
 
 Create a new macOS Swift Xcode project:
