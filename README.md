@@ -1,8 +1,10 @@
 # SwiftStreamManager
 
-Run a golang binary embedded in a native macOS SwiftUI app.
+As an alternative to building an electron app or using a gui toolkit, run a golang binary embedded in a native macOS SwiftUI app.
 
 The golang binary and SwiftUI app communicate via encrypted websocket messages.
+
+If you already have xCode and go installed, following the example to build a new running app takes about 2 minutes.
 
 ## Setup
 
