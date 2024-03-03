@@ -286,8 +286,6 @@ public class StreamManager: ObservableObject {
                 standardOutput: { output in
                     standardOutput(output)
                     
-                    
-                    
                     if withPEMWatcher {
                         guard let publicKey = PEMSearchString(output) else {
                             return
