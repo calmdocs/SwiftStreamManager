@@ -281,7 +281,7 @@ public class StreamManager: ObservableObject {
                 pingTimeout: {
                     pingTimeout()
                     print("ping timeout - reset")
-                    self.reset()
+                    //self.reset()
                 },
                 standardOutput: { output in
                     standardOutput(output)
