@@ -4,6 +4,8 @@ As an alternative to building an electron app or using a gui toolkit, run a gola
 
 If you already have xCode and go installed, following the example to build a new running app takes about 2 minutes.
 
+**Note:**  While this library works as advertised, if used on a laptop that is often woken and put to sleep, after a long period of time the Swift websocket connection may fail requiring an automatic restart of the golang binary.  This is a SwiftUI websockets issue.  Please consider using [calmdocs/SwiftPollManager](https://github.com/calmdocs/SwiftKeyExchange) instead which communicates via [http long polling](https://en.wikipedia.org/wiki/Push_technology#Long_polling).
+
 ## Setup
 
 Create a new macOS Swift Xcode project:
