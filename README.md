@@ -2,7 +2,7 @@
 
 ## Note (March 2024)
 
-While this library works as advertised, if used on a laptop that is often woken and put to sleep, after a long period of time the Swift websocket connection may fail requiring an automatic restart of the golang binary.  This is an issue with the underlying macOS Swift websockets library.  Please consider using [calmdocs/SwiftPollManager](https://github.com/calmdocs/SwiftPollManager) instead which communicates via [http long polling](https://en.wikipedia.org/wiki/Push_technology#Long_polling).
+While this library works as advertised, if used on a laptop that is often woken and put to sleep, after a long period of time the Swift websocket connection may fail, requiring an automatic restart of the golang binary.  This is an issue with the underlying macOS Swift websockets library.  Please consider using [calmdocs/SwiftPollManager](https://github.com/calmdocs/SwiftPollManager) instead which communicates via [http long polling](https://en.wikipedia.org/wiki/Push_technology#Long_polling).
 
 ## About
 
